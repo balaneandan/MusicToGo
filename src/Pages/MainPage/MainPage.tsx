@@ -2,6 +2,7 @@ import { Stack, StackItem, TextField } from "@fluentui/react";
 import { useCallback, useState } from "react";
 import { buttonStyle, textFieldLabelStyle, textFieldStyle } from "./MainPage.styles";
 import Button from '@mui/material/Button';
+import { Example } from "../SecondPage/Example";
 
 export const MainPage = (): JSX.Element => {
     const [link, setLink] = useState<string>("");
@@ -31,6 +32,7 @@ export const MainPage = (): JSX.Element => {
             <StackItem className = {buttonStyle}>
                 <Button onClick={onClickConvertButton}>Convert</Button>
             </StackItem>
+            <Example/>
         </Stack>
     );
 }
