@@ -1,20 +1,35 @@
 {
-  "name": "music-to-go",
+  "name": "my-app2",
   "version": "0.1.0",
   "private": true,
   "dependencies": {
-    "@testing-library/jest-dom": "^5.16.2",
-    "@testing-library/react": "^12.1.2",
-    "@testing-library/user-event": "^13.5.0",
-    "@types/jest": "^27.4.0",
-    "@types/node": "^16.11.22",
-    "@types/react": "^17.0.39",
+    "@devexpress/dx-react-chart": "^2.7.6",
+    "@devexpress/dx-react-chart-material-ui": "^2.7.6",
+    "@devexpress/dx-react-core": "^2.7.6",
+    "@emotion/react": "^11.5.0",
+    "@emotion/styled": "^11.3.0",
+    "@fluentui/react": "^8.11.2",
+    "@material-ui/core": "^4.12.3",
+    "@mui/icons-material": "^5.0.5",
+    "@mui/material": "^5.0.6",
+    "@mui/styles": "^5.0.2",
+    "@mui/x-data-grid": "^5.0.0-beta.7",
+    "@mui/x-data-grid-generator": "^5.0.0-beta.7",
+    "@mui/x-data-grid-pro": "^5.0.0-beta.7",
+    "@testing-library/jest-dom": "^5.15.0",
+    "@testing-library/react": "^11.2.7",
+    "@testing-library/user-event": "^12.8.3",
+    "@types/jest": "^26.0.24",
+    "@types/node": "^12.20.36",
+    "@types/react": "^17.0.34",
     "@types/react-dom": "^17.0.11",
+    "axios": "^0.24.0",
     "react": "^17.0.2",
     "react-dom": "^17.0.2",
-    "react-scripts": "5.0.0",
-    "typescript": "^4.5.5",
-    "web-vitals": "^2.1.4"
+    "react-router-dom": "^5.2.0",
+    "react-scripts": "4.0.3",
+    "typescript": "^4.4.4",
+    "web-vitals": "^1.1.2"
   },
   "scripts": {
     "start": "react-scripts start",
@@ -39,5 +54,8 @@
       "last 1 firefox version",
       "last 1 safari version"
     ]
+  },
+  "devDependencies": {
+    "@types/react-router-dom": "^5.3.2"
   }
 }
