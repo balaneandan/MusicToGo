@@ -1,10 +1,14 @@
+import axios from 'axios';
+import React, { createContext, useContext, useState } from 'react';
+import { Route, Switch, useHistory } from 'react-router-dom';
 import './App.css';
-import { Stack} from '@fluentui/react/lib/Stack';
+
+import { MainPage } from './Pages/MainPage/MainPage';
 
 const App = () => {
 
   return (
-    <Stack>asd</Stack>
+    <MainPage/>
   );
 };
 
