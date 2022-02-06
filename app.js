@@ -25,10 +25,17 @@ app.get("/", (req, res) => {
   res.render("index");
 });
 
+// yt parser
+function youtube_parser(url){
+  var regExp = /^.*((youtu.be\/)|(v\/)|(\/u\/\w\/)|(embed\/)|(watch\?))\??v?=?([^#&?]*).*/;
+  var match = url.match(regExp);
+  return (match&&match[7].length==11)? match[7] : false;
+}
+
 // POST route
 app.post("/convert-mp3", async (req, res) => {
 
-  const videoId = req.body.videoId;
+  const videoId = youtube_parser(req.body.videoId);
   
   if(
     videoId === undefined ||

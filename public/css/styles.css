@@ -6,15 +6,12 @@
 }
 
 body{
-  color: white;
+  background-image:url("https://external-content.duckduckgo.com/iu/?u=https%3A%2F%2Fd2gg9evh47fn9z.cloudfront.net%2F800px_COLOURBOX3946025.jpg&f=1&nofb=1");
   overflow: hidden;
   font-family: 'Orbitron', sans-serif;
 }
 
-.top-container{
-  height: 40vh;
-  background-color: red;
-}
+
 
 .bottom-container{
   display: flex;
@@ -32,12 +29,30 @@ body{
   align-items: center;
   flex-direction: column;
   gap: 10px;
-  padding-top: 20px;
+  padding-top: 10px;
 }
 
-#form h1{
-  font-style: italic;
-  text-shadow: 1px 1px darkgray;
+#form h1 {
+  font-size: 40px;
+  color: #fff;
+  text-shadow:
+      0 0 7px #fff,
+      0 0 10px #fff,
+      0 0 21px #fff,
+      0 0 42px #5271ff,
+      0 0 82px #5271ff,
+      0 0 92px #5271ff,
+      0 0 102px #5271ff,
+      0 0 151px #5271ff;
+}
+
+#form h4 {
+  font-size: 10px;
+  color: #fff;
+  text-shadow:
+    0 0 7px #fff,
+    0 0 10px #fff,
+    0 0 21px #fff
 }
 
 #form input{
@@ -65,7 +80,7 @@ body{
 
 #form button:hover{
   color:white;
-  background-color:  red;
+  background-color:  rgba(49, 93, 189, 0.212);
   border: 1px solid  red;
   transform: scale(1.1);
 }
@@ -80,7 +95,7 @@ body{
   gap: 10px;
   border-radius: 5px;
   padding: 12px;
-  color: red;
+  color: rgb(20, 6, 6);
   background-color: #ffe6e6;
   border: 1px solid red;
 }
@@ -92,6 +107,9 @@ body{
   flex-direction: column;
   gap: 10px;
   color: black;
+}
+.success p {
+    color: #fff;
 }
 
 #error{
@@ -109,7 +127,7 @@ body{
   color: black;
   padding: 12px;
   color: white;
-  background-color: red;
+  background-color: rgb(43, 12, 12);
   border-radius: 5px;
   text-decoration: none;
   box-shadow: 2px 2px 5px gray;
@@ -117,7 +135,7 @@ body{
   cursor: pointer;
   letter-spacing: 1px;
   font-family: inherit;
-  border: 1px solid red;
+  border: 1px solid rgb(122, 92, 92);
   transition: 0.3s ease-out;
 }
 
