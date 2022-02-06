@@ -1,8 +1,0 @@
-version: '3'
-
-services:
-
-  react:
-    image: ts-energy-consumption
-    ports:
-       - "3000:3001"
